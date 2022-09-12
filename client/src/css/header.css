@@ -1,0 +1,10 @@
+.header{
+    background-color: rgb(152, 152, 152);
+}
+
+.logo{
+    width: auto;
+    height: 50px;
+    padding: 7px;
+    margin-left: 30px;
+}
