@@ -4,12 +4,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import HomePage from './screens/homePage';
 import Header  from './components/header';
+import Footer from './components/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header/>
     <HomePage />
+    <Footer/>
   </React.StrictMode>
 );
 

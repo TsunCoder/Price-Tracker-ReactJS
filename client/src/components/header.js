@@ -7,6 +7,7 @@ const header = () => {
     <div className="header">
       <header>
         <img className="logo" src={Logo} alt="logo" />
+        <button href="#" className="header-contact">Liên hệ</button>
       </header>
     </div>
   );
