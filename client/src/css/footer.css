@@ -2,12 +2,18 @@
     margin: 32px 128px 32px 128px;
 }
 .border-avatar{
-    height: 145px;
-    width: 145px;
-    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    /* border: 1px solid black; */
     border-radius: 360px;
 }
 .avatar{
     height: 100%;
     width: 100%;
+    border-radius: 360px;
+    /* box-shadow: orange 0px 0px 12px, orange 0px 0px 1px; */
+}
+h6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }

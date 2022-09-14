@@ -1,5 +1,6 @@
+
 .header{
-    background-color: rgb(255, 255, 255);
+    background-color: orange;
 }
 
 .logo{
@@ -21,7 +22,7 @@
 }
 .header-contact:hover{
     color: white;
-    background-color: rgb(159, 225, 255);
-    transition: 0.5s;
-    border: 2px rgb(159, 225, 255) solid;
+    background-color: rgb(39, 11, 11);
+    transition: 0.8s;
+    border: 2px white solid;
 }

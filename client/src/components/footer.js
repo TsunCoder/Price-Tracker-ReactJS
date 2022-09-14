@@ -2,7 +2,9 @@ import React from 'react';
 import { CDBFooter, CDBBtn, CDBIcon, CDBBox } from 'cdbreact';
 import Logo from "../assets/logo.png"
 import "../css/footer.css"
-import logo from "../logo.svg";
+import TN from "../assets/TN.jpg"
+import TS from "../assets/TS.jpeg"
+import VN from "../assets/VN.jpg"
 
 const footer = () => {
   return (
@@ -29,7 +31,7 @@ const footer = () => {
           <CDBBox>
             <p className="h5 mb-10" style={{ fontWeight: '600' }}>
             <div className='border-avatar'>
-              <img src={logo} alt="logo" className='avatar'/>
+              <img src={TS} alt="logo" className='avatar'/>
             </div>
             </p>
             <CDBBox display="flex" flex="column" style={{ cursor: 'pointer'}}>
@@ -44,7 +46,7 @@ const footer = () => {
           <CDBBox>
             <p className="h5 mb-10" style={{ fontWeight: '600' }}>
             <div className='border-avatar'>
-              <img src={logo} alt="logo" className='avatar'/>
+              <img src={TN} alt="logo" className='avatar'/>
             </div>
             </p>
             <CDBBox display="flex" flex="column" style={{ cursor: 'pointer' }}>
@@ -58,7 +60,7 @@ const footer = () => {
           <CDBBox>
             <p className="h5 mb-10" style={{ fontWeight: '600' }}>
             <div className='border-avatar'>
-              <img src={logo} alt="logo" className='avatar'/>
+              <img src={VN} alt="logo" className='avatar'/>
             </div>
             </p>
             <CDBBox display="flex" flex="column" style={{ cursor: 'pointer' }}>

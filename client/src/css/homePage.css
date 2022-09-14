@@ -93,4 +93,5 @@
     transform: scale(1.2) rotate(90deg);
     transition: 0.5s;
     color: orange;
+    box-shadow: orange 0px 2px 8px 0px;
 }
