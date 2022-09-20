@@ -1,10 +1,28 @@
+
 .header{
-    background-color: rgb(152, 152, 152);
+    background-color: orange;
 }
 
 .logo{
     width: auto;
-    height: 50px;
+    height: 80px;
     padding: 7px;
-    margin-left: 30px;
+    margin-left: 128px;
+}
+.header-contact{
+    text-decoration: none;
+    border: 2px gray solid;
+    border-radius: 6px;
+    padding: 0.7rem;
+    color: gray;
+    float: right;
+    font-weight: 600;
+    margin-right: 128px;
+    margin-top: 12px;
+}
+.header-contact:hover{
+    color: white;
+    background-color: rgb(39, 11, 11);
+    transition: 0.8s;
+    border: 2px white solid;
 }
